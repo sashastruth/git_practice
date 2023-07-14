@@ -1,0 +1,183 @@
+html {
+    background-color: #E8E1D3;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1rem;
+}
+
+/* header/navbar-section */ 
+
+header {
+    position: fixed;
+    height: 3.5%;
+    width: 100%;
+    background-color: #A6A197; 
+    display: block;
+    position: fixed;
+    top: 0px;
+    padding: 1rem;
+}
+
+.topbar {
+    display: inline-flex;
+}
+
+.logo h2 {
+    float: left;
+    font-size: 4rem;
+    font-style: italic;
+    margin-top: 0%;
+    padding: .5rem 0 0 .5rem;
+}
+
+.navigation {
+    height: 100%;
+    margin: 0 auto;
+    padding-right: 2rem;
+}
+
+.navigation ul {
+    list-style-type: none;
+    display: flex;
+    float: right;
+}
+
+.navigation a {
+    justify-content: flex-end;
+    padding: 1rem;
+} 
+
+.navigation li {
+    text-decoration: underline;
+    padding-right: 1rem;
+    font-size: 3rem;
+}
+
+/* whatido-section */ 
+
+.whatido {
+    display: inline-flex; 
+    flex-wrap: wrap; 
+    justify-content: space-around;
+    padding-top: 1.5%;
+    width: 100%;
+}
+
+.textintro {
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.image-container {
+    display: inline-flex;
+    flex-direction: column;
+    background-color: #A6A197;  
+    max-width: 24.9%;
+}
+
+.image-container h2 {
+    text-align: center;
+    padding: .5rem;
+    font-size: 2rem;
+}
+
+.image-container img {
+    flex: 1;
+    padding: 1rem;
+}
+
+.processtextintro {
+    font-size: 3rem;
+    text-align: center;
+}
+
+@media only screen and (max-width: 3800px) {
+    .whatido {
+      flex-flow: column;
+      align-items: center;
+    }
+    .image-container {
+      max-width: 100%;
+    }
+    .example-image img {
+      width: 100%;
+    }
+  }
+
+
+/* video-section */ 
+
+.video {
+    display: flex;
+}
+
+.video video {
+    width: 100%;
+    padding: 0 80rem;
+}
+
+/* team-section */ 
+
+.intro-to-team {
+    text-align: center;
+    padding: 5rem;
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.the-team {
+    display: flex;
+}
+
+.theteamtextintro {
+    display: inline-block;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.colleagues-images-container {
+    padding: 4rem 5%;  
+    justify-content: space-between;
+}    
+
+.colleagues-images-container h2 {
+    font-size: 3rem;
+}
+
+.colleagues-images {
+    padding: 3rem;
+    background-color: #A6A197; 
+    max-width: 100%;
+}
+
+.colleagues-images img {
+    padding: 1rem;
+
+}
+
+ 
+@media only screen and (max-width: 2900px) {
+    .the-team {
+      flex-flow: column;
+      align-items: center;
+    }
+    }
+    .colleagues-images img {
+      width: 100%;
+    }
+
+
+
+/* footer-section */ 
+
+
+.footersection {
+    margin: 0 auto; 
+    float: right;
+    padding-bottom: 3rem;
+}
+
+.symbol {
+    width: 3rem;
+    height: auto;
+}
